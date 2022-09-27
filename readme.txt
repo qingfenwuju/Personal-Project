@@ -2,6 +2,5 @@ Git is a distributed version control system.
 Git is free software.
 Git is a distributed version control system.
 Git is free software distributed under the GPL.
-123456789
 
-987654321
+添加的信息	
