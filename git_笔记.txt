@@ -13,7 +13,11 @@ git commit		//告诉git，将文件提交到仓库（确认添加的文件）
 git commit	-m"本次提交说明"		//-m后面输入本次提交的说明
 git status		//查看当前仓库状态，仓库内的文件是否被修改
 git diff		//git difference查看当修改的内容 
-
+git log 		//显示从最近到最远的提价日志
+git log --pretty=oneline			//将提交的日志简化为十六进制	ID编码即显示出commit id。
+git reste --hard HEAD^	//回退之前的版本，^符号的数量决定回退之前的第几个版本。
+git reset --hard commit id		//输入id的前5位，将版本更新到id对应的版本。commit id 指对应的版本id，可通过git log --pretty=oneline查看。
+git reflog		//显示每一次版本记录
 
 ls 目录名称		//列出指定目录中的文件名和子目录名。
 ls -a			//列出所有文件，包括以点开头的隐含文件
