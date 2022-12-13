@@ -36,10 +36,10 @@ git push 本地仓库名 本地分支	//将本地库的内容推送给远程
 若远程库为空，需要在push后加-u
 即 git push -u 本地仓库名 本地分支
 例如：
-git push Personal-Prject master
+git push -u Personal-Prject master
 
 从远程库拷贝至本地
-git clone git@github.com:远程仓库名 远程分支.git
+git clone git@github.com:远程仓库名 远程分支.g
 
 ls 目录名称		//列出指定目录中的文件名和子目录名。
 ls -a			//列出所有文件，包括以点开头的隐含文件
